@@ -1,5 +1,28 @@
 import random
 
+# Hra:
+# Predstavte si, ze jsem vas zakaznik a chci od Vas vytvorit v Pythonu hru simulaci areny s
+# bojovniky. Kreativite se meze nekladou, ale zakladni koncept je, ze mezi sebou budou
+# souperit dva bojovnici na zivot a na smrt.
+# Poznamka!!!: Zacnete programovat u zakladu - prvne vytvorte jednoduchy fungujici zaklad a
+# pote az rozsirujte o specialni funkcionality
+# Programujte postupne reseni podle obtiznost:
+# 1. Dva bojovnici mezi sebou bojuji na zivot a na smrt
+# 2. Zapojte prvky nahody (nahodne bonusove poskozeni, ..)
+# 3. Bojovnici budou bojovat v arene (Vytvorte arenu jako objekt) - naformatujte vystup
+# 4. Vytvorte vice druhu bojovniku s ruznymi vlastnostmi (sermir, lukostrelec, mag, .. -
+# pres deditelnost samozrejme), ktery si budou moci uzivatele zvolit
+# 5. Zamerte se na bezpecnosti detaily objektu - napr. pocet zivotu bojovnika, jeho
+# poskozeni atd. by nemel byt upravitelny jinym bojovnikem jen tak - implementovat
+# privatni atributy a predelat logiku utoku
+# 6. Udelejte moznost bojovych skupin - vice bojovniku na kazde strane, ktery se stridaji
+# kdyz ten pred nemi zemre
+# 7. Muzete rozsirit hru na PVE (player vs environment - hrac proti pocitaci), kdy si napr.
+# hrac muze vybrat 5 bojovniku, kteri budou bojovat proti bosovi (drak, ..)
+# 8. Gratuluji! Vytvorili jste vlastni pocitacovou hru a zjistili jste, ze jste schopni
+# programatori! Az se naucite pracovat s Gitem, urcite si hru ulozte na svuj Git jako
+# ukazku Vasich schopnosti a sdilejte ji se skupinou i se mnou! :)
+# Dale zapojte kreativitu a vylepsite si hru podle libosti, tesim se na Vase vysledky! :)
 
 class Bojovnik:
 
